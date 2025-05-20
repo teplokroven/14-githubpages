@@ -93,9 +93,12 @@ body {
   font-family: verdana;
   font-weight: 700;
   font-size: 24px;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .card__text {
   font-family: "JetBrainsMono", monospace;
   font-size: 24px;
+  margin: 0;
 }
