@@ -61,7 +61,7 @@ body {
   gap: 30px;
 }
 
-.group-about__text {
+.text {
   margin: 0;
   font-family: "JetBrainsMono", monospace;
 }
@@ -99,8 +99,6 @@ body {
 }
 
 .card__text {
-  font-family: "JetBrainsMono", monospace;
   font-size: 24px;
-  margin: 0;
   padding: 0 38px;
 }
