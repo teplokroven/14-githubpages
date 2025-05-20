@@ -1,7 +1,11 @@
 @font-face {
   font-family: Verdana;
-  src: url(fonts/Verdana/fonts/Verdana/Verdana.ttf);
-  src: url(fonts/JetBrainsMono/JetBrainsMono.ttf);
+  src: url('../fonts/Verdana/Verdana.ttfs');
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('../fonts/JetBrainsMono/JetBrainsMono.ttf');
 }
 
 * {
@@ -15,26 +19,30 @@ body {
   margin: 0;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .section {
   padding: 158px 0;
 }
 
-.section--bgrlight {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section--bgr-light {
   background-color: #c8fff2;
 }
 
-.hero__title {
+.title {
   margin: 0;
-  margin-bottom: 140px;
   text-align: center;
-  font-family: verdana;
+  font-family: "Verdana", sans-serif;
   font-weight: 700;
   font-size: 40px;
+}
+
+.hero__title {
+  margin-bottom: 140px;
 }
 
 .hero__group {
@@ -47,10 +55,9 @@ body {
   margin-right: 80px;
 }
 
-.group-about__fortext {
+.group-about__texts {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   gap: 30px;
 }
 
@@ -59,20 +66,15 @@ body {
   font-family: "JetBrainsMono", monospace;
 }
 
-.section--bgrdark {
+.section--bgr-dark {
   background-color: #a0ffe8;
 }
 
 .advantages__title {
-  margin: 0;
   margin-bottom: 100px;
-  text-align: center;
-  font-family: verdana;
-  font-weight: 700;
-  font-size: 40px;
 }
 
-.cards {
+.advantages__cards {
   display: flex;
   justify-content: center;
   gap: 55px;
@@ -84,16 +86,15 @@ body {
   justify-content: space-between;
   background-color: white;
   border-radius: 25px;
-  min-width: 360px;
-  padding: 30px;
+  max-width: 360px;
+  min-height: 430px;
+  padding-top: 25px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
-.card__title {
-  font-family: verdana;
-  font-weight: 700;
+.card__subtitle {
   font-size: 24px;
-  margin: 0;
   margin-bottom: 40px;
 }
 
@@ -101,4 +102,5 @@ body {
   font-family: "JetBrainsMono", monospace;
   font-size: 24px;
   margin: 0;
+  padding: 0 38px;
 }
