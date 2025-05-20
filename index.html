@@ -4,66 +4,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <title>About GITHUB</title>
 </head>
 
 <body class="body">
   <main class="main">
-    <section class="introduction">
+    <section class="section section--bgrlight">
       <div class="container">
-        <div class="introduction-content">
-          <h1 class="introduction-content__title">
-            Вёрстка
+        <div class="hero">
+          <h1 class="hero__title">
+            Что такое Git и GitHub?
           </h1>
 
-          <p class="introduction-content__text">
-            Вёрстка - это создание структуры гипертекстового документа на основе HTML-разметки, как правило, при
-            использовании таблиц стилей и клиентских сценариев, таким образом, чтобы элементы дизайна выглядели
-            аналогично
-            макету.
-          </p>
+          <div class="hero__group group-about">
+            <img class="group-about__img" src="images/cat.png" alt="cat">
+
+            <div class="group-about__fortext">
+              <p class="group-about__text">
+                Git - это система контроля версий, которая позволяет отслеживать изменения в коде.
+              </p>
+
+              <p class="group-about__text">
+                GitHub - это веб-платформа, использующая Git, которая предоставляет хостинг для проектов на Git. Она
+                позволяет разработчикам хранить свои репозитории и многое другое.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="about-html bgr-orange">
+    <section class="section section--bgrdark">
       <div class="container">
-        <div class="about-group">
-          <img class="about-group__img" src="images/html.png" alt="icon-html">
+        <div class="advantages">
+          <h2 class="advantages__title">
+            Преимущества
+          </h2>
 
-          <p class="about-group__text">
-            HTML (Hypertext Markup Language) - это код, который используется для структурирования и отображения
-            веб-страницы и её контента. Например, контент может быть структурирован внутри множества параграфов,
-            маркированных списков.
-            <br>
-            <br>
-            HTML не является языком программирования; это язык разметки, и используется, чтобы сообщать вашему браузеру,
-            как отображать веб-страницы, которые вы посещаете. Он может быть сложным или простым, в зависимости от того,
-            как хочет веб-дизайнер.
-          </p>
+          <div class="cards">
+            <div class="card">
+              <h3 class="card__title">
+                Хостинг
+              </h3>
+
+              <p class="card__text">
+                GitHub предоставляет удобный способ хранения и управления вашими Git-репозиториями в облаке.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title">
+                Совместная работа
+              </h3>
+
+              <p class="card__text">
+                GitHub обеспечивает возможность совместной работы над проектами.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title">
+                Управление доступом
+              </h3>
+
+              <p class="card__text">
+                GitHub предоставляет гибкие настройки доступа к репозиториям, что позволяет контролировать многое
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title">
+                Управление доступом
+              </h3>
+
+              <p class="card__text">
+                GitHub предоставляет гибкие настройки доступа к репозиториям, что позволяет контролировать многое
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="about-css bgr-blue">
-      <div class="container">
-        <div class="about-group">
-          <img class="about-group__img" src="images/css.png" alt="icon-html">
-
-          <p class="about-group__text">
-            CSS (Cascading Style Sheets) — это код, который вы используете для стилизации вашей веб-страницы.
-            <br>
-            <br>
-            Как и HTML,
-            CSS на самом деле не является языком программирования. Это не язык разметки - это язык таблицы стилей. Это
-            означает, что он позволяет применять стили выборочно к элементам в документах HTML.
-          </p>
-        </div>
-      </div>
-    </section>
   </main>
-
 </body>
 
 </html>

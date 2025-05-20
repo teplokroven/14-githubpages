@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Verdana;
+  src: url(fonts/Verdana/fonts/Verdana/Verdana.ttf);
+  src: url(fonts/JetBrainsMono/JetBrainsMono.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-size: 32px;
+  color: #222222;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 158px 0;
+}
+
+.section--bgrlight {
+  background-color: #c8fff2;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 140px;
+  text-align: center;
+  font-family: verdana;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.hero__group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-about__img {
+  margin-right: 80px;
+}
+
+.group-about__fortext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.group-about__text {
+  margin: 0;
+  font-family: "JetBrainsMono", monospace;
+}
+
+.section--bgrdark {
+  background-color: #a0ffe8;
+}
+
+.advantages__title {
+  margin: 0;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: verdana;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 55px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 25px;
+  min-width: 360px;
+  padding: 30px;
+  text-align: center;
+}
+
+.card__title {
+  font-family: verdana;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card__text {
+  font-family: "JetBrainsMono", monospace;
+  font-size: 24px;
+}
