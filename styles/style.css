@@ -1,11 +1,15 @@
 @font-face {
-  font-family: Verdana;
-  src: url('../fonts/Verdana/Verdana.ttf');
+  font-family: 'Verdana';
+  src: url('../fonts/Verdana/Verdana.woff2') format('woff2');;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'JetBrainsMono';
-  src: url('../fonts/JetBrainsMono/JetBrainsMono.ttf');
+  src: url('../fonts/JetBrainsMono/JetBrainsMono.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -20,7 +24,7 @@ body {
 }
 
 .section {
-  padding: 158px 0;
+  padding: 160px 0;
 }
 
 .container {
