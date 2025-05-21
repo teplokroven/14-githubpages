@@ -5,13 +5,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'JetBrainsMono';
-  src: url('../fonts/JetBrainsMono/JetBrainsMono.woff2') format('woff2');
-  font-style: normal;
-  font-display: swap;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -28,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -81,7 +74,7 @@ body {
 .advantages__cards-group {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 60px;
   flex-wrap: wrap;
 }
 
