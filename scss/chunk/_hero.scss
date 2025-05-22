@@ -1,0 +1,25 @@
+.hero {
+
+  &__title {
+    margin-bottom: 140px;
+  }
+
+  &__group {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+}
+
+.group {
+
+  &__about__img {
+    max-width: 235px;
+  }
+
+  &__about__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

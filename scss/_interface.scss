@@ -1,0 +1,26 @@
+@use './vars' as *;
+
+.section {
+  padding: 160px 0;
+  
+  &--bgr-dark {
+    background-color: $hero-bgr-color;
+  }
+
+  &--bgr-light {
+    background-color: $cards-bgr-color;
+  }
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-family: $font-title;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.text {
+  margin: 0;
+  font-family: $font-text;
+}
