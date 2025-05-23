@@ -11,13 +11,13 @@
   }
 }
 
-.group {
+.group-about {
 
-  &__about__img {
+  &__img {
     max-width: 235px;
   }
 
-  &__about__texts {
+  &__texts {
     display: flex;
     flex-direction: column;
     gap: 30px;
